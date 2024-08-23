@@ -17,6 +17,9 @@ const Form = () => {
   <form>
   <div className="forms">
     <InputText  value={inputValue} onChange={handleInputChange}/>
+    <div>
+      {inputValue}
+    </div>
     <Button onClick={handleClearClick} />
   </div>
   </form>
